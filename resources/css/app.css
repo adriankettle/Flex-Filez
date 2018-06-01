@@ -1,0 +1,88 @@
+*{
+  font-family: sans-serif;
+  margin: auto;
+}
+
+body, input, button{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: steelblue;
+  color: white;
+  box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.15);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+header input{
+  width: 90%;
+  height: 45%;
+  float: left;
+  font-size: 15px;
+  font-weight: 400;
+  text-indent: 15px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-left: 0px;
+  background-color: rgba(255, 215, 255, 0.2);
+  border-radius: 5px;
+  border: 0px;
+  box-shadow: none;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #ffff;
+
+  -webkit-appearance:none;
+  -moz-appearance: none;
+  -ms-appearance:none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+header input::-webkit-input-placeholder{
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+header input:-moz-input-placeholder{
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+header input:-moz-input-placeholder{
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+header input:-os-input-placeholder{
+  color: rgba(255, 255, 255, 0.75);
+}
+
+header button{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: lime;
+  color: steelblue;
+  top: 15px;
+  right: 15px;
+  z-index: 2;
+  border-radius: 15px;
+
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    -ms-appearance:none;
+    -o-appearance: none;
+    appearance: none;
+}
